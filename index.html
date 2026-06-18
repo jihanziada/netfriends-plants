@@ -422,7 +422,7 @@ tr:hover td { background: #f9f9f7; }
 <div id="page-overview" class="page">
   <div class="page-header">
     <h1>Watering Overview</h1>
-    <p>All 10 plants at a glance</p>
+    <p>All 22 plants at a glance</p>
   </div>
   <div class="table-wrap">
     <table id="overview-table">
@@ -496,6 +496,19 @@ const PLANTS = [
   {id:'money',   name:'Money Tree (Braided)',            loc:'Front windowsill',       type:'Tropical / Feng shui',           light:'Bright indirect',           cups:'1 cup',  oz:'8–10 oz', freq:'2–3× per month',         days:12, emoji:'🍀'},
   {id:'pothos',  name:'Hawaiian Pothos',                loc:'Front windowsill',       type:'Trailing vine / Air purifier',   light:'Medium to bright indirect', cups:'½ cup',  oz:'6–8 oz',  freq:'3–4× per month',         days:8,  emoji:'🌿'},
   {id:'sherbet', name:'Shadow King Strawberry Sherbet', loc:'Front windowsill',       type:'Flowering Begonia / Ornamental', light:'Bright indirect',           cups:'½ cup',  oz:'4–6 oz',  freq:'3–4× per month',         days:8,  emoji:'🌸'},
+
+  {id:'streptophylla', name:'T. streptophylla', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 3–4× per week', freq:'3–4× per week', days:2, emoji:'🌿'},
+  {id:'stricta', name:'T. stricta (Green Form)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 3× per week', freq:'3× per week', days:2, emoji:'🌿'},
+  {id:'argentea', name:'T. argentea (Thin Form)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 2–3× per week', freq:'2–3× per week', days:3, emoji:'🌿'},
+  {id:'harrisii1', name:'T. harrisii (1 of 2)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 3× per week', freq:'3× per week', days:2, emoji:'🌿'},
+  {id:'harrisii2', name:'T. harrisii (2 of 2)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 3× per week', freq:'3× per week', days:2, emoji:'🌿'},
+  {id:'ionantha1', name:'T. ionantha XL Rubra (1 of 3)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 3–4× per week', freq:'3–4× per week', days:2, emoji:'🌿'},
+  {id:'ionantha2', name:'T. ionantha XL Rubra (2 of 3)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 3–4× per week', freq:'3–4× per week', days:2, emoji:'🌿'},
+  {id:'ionantha3', name:'T. ionantha XL Rubra (3 of 3)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 3–4× per week', freq:'3–4× per week', days:2, emoji:'🌿'},
+  {id:'capmed1', name:'T. caput-medusae (1 of 2)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 3× per week — INVERT after', freq:'3× per week', days:2, emoji:'🌿'},
+  {id:'capmed2', name:'T. caput-medusae (2 of 2)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 3× per week — INVERT after', freq:'3× per week', days:2, emoji:'🌿'},
+  {id:'seleriana1', name:'T. seleriana (1 of 2)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 2–3× per week — INVERT after', freq:'2–3× per week', days:3, emoji:'🌿'},
+  {id:'seleriana2', name:'T. seleriana (2 of 2)', loc:'TBD — Air Plant', type:'Air Plant (Tillandsia) / Xeric', light:'Bright indirect — LED grow light', cups:'Mist only', oz:'Mist 2–3× per week — INVERT after', freq:'2–3× per week', days:3, emoji:'🌿'},
 ];
 
 // ── STORAGE ─────────────────────────────────────────────────────────────────
@@ -1054,4 +1067,4 @@ setInterval(async () => {
 }, 30000);
 </script>
 </body>
-</html>
+</html> 
